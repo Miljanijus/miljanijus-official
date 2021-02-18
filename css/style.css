@@ -230,7 +230,7 @@ header .nav ul li a:hover::before{
     color: #393939;
     font-size: 40px;
     font-weight: 600;
-    margin-left: 10%;
+    margin-left: 5%;
     position: relative;
 }
 .heading h1::before{
@@ -267,13 +267,13 @@ header .nav ul li a:hover::before{
 .text{
     min-width: 70%;
     min-height: 90%;
-    background-color:#dee3e2 ;
+    background-color:#b1b1b1 ;
     margin: 10px;
 }
 .text h4{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
-    margin-top: 5px;
+    margin-top: 15px;
     color: #393939;
     text-align: center;
 }
@@ -312,7 +312,7 @@ header .nav ul li a:hover::before{
 .section3{
     max-width: 100vw;
     min-height: 90vh;
-    background-color: #dee3e2;
+    background-color: #b1b1b1;
 }
 .content3{
     max-width: 80%;
@@ -323,7 +323,7 @@ header .nav ul li a:hover::before{
 #heading2{
     max-width: 100%;
     height: 8%;
-    background-color: #dee3e2;
+    background-color: #b1b1b1;
     align-items: center;
     padding: 40px;
 }
@@ -496,11 +496,11 @@ header .nav ul li a:hover::before{
     background-size: cover;
 }
 .box2 #image2{
-    width: 50%;
-    height: 30%;
-    margin-top: 30%;
-    margin-left: 50%;
-    transform: translate(-50%,-50%);
+    width: 100;
+    height: 100;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .box2-cover{
     position: absolute;
@@ -518,6 +518,12 @@ header .nav ul li a:hover::before{
     flex-direction: column;
     justify-content: center;
     text-align: center;
+}
+.box2-cover a{
+    text-decoration: none;
+}
+.box2 a{
+    text-decoration: none;
 }
 .box2-cover:hover{
     opacity: 1;
@@ -759,6 +765,10 @@ header .nav ul li a:hover::before{
     }
     .adress{
         margin-top: 20px;
+    }
+    .text h4{
+        font-size: 14px;
+        margin-top: 5px;
     }
 }
 @media(max-width:460px){
